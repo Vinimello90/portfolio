@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 60px;
+  height: 600px;
 }
 
 h1 {
@@ -153,6 +154,10 @@ hr {
 }
 
 @media (max-width: 1545px) {
+  .title-name {
+    height: 500px;
+  }
+
   h1 {
     font-size: 6.5rem;
   }
@@ -190,6 +195,10 @@ hr {
 }
 
 @media (max-width: 1325px) {
+  .title-name {
+    height: 420px;
+  }
+
   h1 {
     font-size: 5.8rem;
   }
@@ -233,6 +242,9 @@ hr {
 }
 
 @media (max-width: 1200px) {
+  .title-name {
+    height: 420px;
+  }
   h1 {
     font-size: 5.8rem;
   }
@@ -294,6 +306,9 @@ hr {
 }
 
 @media (max-width: 1104px) {
+  .title-name {
+    height: 330px;
+  }
   h1 {
     font-size: 4rem;
   }
@@ -356,6 +371,9 @@ hr {
 }
 
 @media (max-width: 870px) {
+  .title-name {
+    height: 245px;
+  }
   h1 {
     font-size: 3rem;
   }
@@ -409,7 +427,7 @@ hr {
 
   .about-me {
     font-size: 1.1rem;
-    margin-left: -130px;
+    margin-left: -150px;
   }
 
   .text-profile {
@@ -428,7 +446,7 @@ hr {
     border-bottom: 4.5px solid #ffb300;
     flex-direction: column;
     justify-content: space-between;
-    height: 58vh;
+    height: 506.5px;
   }
 
   .name {
@@ -521,7 +539,7 @@ hr {
     border-bottom: 4.5px solid #ffb300;
     flex-direction: column;
     justify-content: space-between;
-    height: 50vh;
+    height: 435.5px;
   }
 
   .name {
