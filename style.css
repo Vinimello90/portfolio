@@ -530,12 +530,12 @@ hr {
   }
 
   h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     margin-bottom: 8px;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 25px;
   }
 
@@ -591,7 +591,7 @@ hr {
   .about-me {
     display: inline;
     position: relative;
-    left: 75px;
+    left: 45px;
     font-size: 1.1rem;
     margin-left: 0px;
     text-align: center;
@@ -600,8 +600,8 @@ hr {
   }
 
   .text-profile {
-    width: 250px;
-    border-radius: 5% / 5%;
+    width: 200px;
+    border-radius: 8% / 6%;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -609,7 +609,7 @@ hr {
   }
 
   .description {
-    font-size: 1rem;
+    font-size: 11pt;
     width: 100%;
     margin: 0px;
   }
