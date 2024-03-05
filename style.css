@@ -4,7 +4,6 @@ body {
 }
 
 .title-name {
-  display: block;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -32,7 +31,7 @@ h2 {
 
 p {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 1.65rem;
+  font-size: 1.4rem;
   margin-top: -10px;
 }
 
@@ -87,7 +86,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 550px;
   margin: 0;
 }
 
@@ -95,7 +94,7 @@ p {
   display: flex;
   position: relative;
   flex-basis: 300px;
-  left: -29px;
+  left: -30px;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -107,24 +106,24 @@ p {
   z-index: 1;
   border: 6px solid #ffb300;
   border-radius: 50%;
-  width: 320px;
+  width: 350px;
 }
 
 .text-profile {
   display: block;
   position: relative;
   padding: 0 20px;
-  padding-left: 80px;
-  margin: -60px;
+  padding-left: 95px;
+  margin: -80px;
   border: 5px #ffb300 solid;
-  border-radius: 3% / 12%;
+  border-radius: 4% / 13%;
 }
 
 .about-me {
   display: inline-block;
   position: relative;
   top: -14px;
-  margin-left: -115px;
+  margin-left: -125px;
   border-radius: 10px;
   background-color: #ffb300;
   font-size: 1.8rem;
@@ -138,7 +137,7 @@ p {
   display: block;
   flex: 1;
   width: 750px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: justify;
   line-height: 140%;
   margin-top: -25px;
@@ -146,11 +145,131 @@ p {
 }
 
 hr {
-  border: #ffb300 dotted 6px;
+  border: #ffb300 dotted 7px;
+  display: block;
+  position: relative;
+  z-index: 1;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: -3px;
   border-bottom: none;
-  width: 50px;
+  width: 40px;
+}
+
+.container-skills {
+  background-color: #fff5d3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  border-radius: 30px;
+}
+
+.skill-title {
+  font-family: "Pacifico", cursive;
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #ffb300;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.skill-content {
+  font-size: 1.4rem;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+}
+
+.skill-content.list {
+  display: inline-flex;
+  list-style-type: none;
+  gap: 30px;
+  margin-top: 15px;
+  margin-left: -50px;
+  line-height: 35px;
+}
+
+.logos {
+  height: 80px;
+}
+
+.projects-container {
+  display: flex;
+  background-color: #ffeeb1;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 1000px;
+}
+
+.projects {
+  font-family: "Pacifico", cursive;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #ffb300;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 370px 370px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0;
+}
+
+.image-project {
+  height: 230px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: ghostwhite;
+}
+
+.project-title {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  background-color: #ffb300;
+  color: #fff5d3;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.project-description {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: 10px;
+  padding: 0px;
+}
+
+.link-image {
+  line-height: 0;
+  display: block;
+  text-decoration: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
 }
 
 @media (max-width: 1545px) {
@@ -191,6 +310,30 @@ hr {
 
   .background4 {
     width: 150px;
+  }
+
+  .profile {
+    height: 510px;
+  }
+
+  .skill-title {
+    font-size: 3.3rem;
+  }
+
+  .skill-content {
+    font-size: 1.4rem;
+  }
+
+  .logos {
+    height: 80px;
+  }
+
+  .projects {
+    font-size: 3.3rem;
+  }
+
+  .project-description {
+    font-size: 1.4rem;
   }
 }
 
@@ -235,9 +378,30 @@ hr {
     width: 130px;
   }
 
+  .profile {
+    height: 500px;
+  }
+
   .name {
     display: block;
     padding-left: 150px;
+  }
+
+  .projects {
+    font-size: 3.3rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 345px 345px 345px;
+    grid-template-rows: 350px 350px;
+  }
+
+  .image-project {
+    height: 190px;
+  }
+
+  .project-title {
+    font-size: 1.6rem;
   }
 }
 
@@ -281,6 +445,10 @@ hr {
     width: 130px;
   }
 
+  .profile {
+    height: 450px;
+  }
+
   .name {
     display: block;
     padding-left: 150px;
@@ -295,6 +463,7 @@ hr {
   }
 
   .text-profile {
+    margin: -70px;
     padding-left: 80px;
     border-radius: 3.5% / 11%;
   }
@@ -302,6 +471,26 @@ hr {
   .description {
     font-size: 1.2rem;
     width: 650px;
+  }
+
+  .skill-title {
+    font-size: 2.8rem;
+  }
+
+  .skill-content {
+    font-size: 1.2rem;
+  }
+
+  .logos {
+    height: 60px;
+  }
+
+  .projects {
+    font-size: 2.8rem;
+  }
+
+  .project-description {
+    font-size: 1.2rem;
   }
 }
 
@@ -317,7 +506,7 @@ hr {
     font-size: 1.5rem;
   }
 
-  p {
+  .intro {
     font-size: 1rem;
     width: 250px;
   }
@@ -346,6 +535,10 @@ hr {
     width: 120px;
   }
 
+  .profile {
+    height: 450px;
+  }
+
   .name {
     display: block;
     padding-left: 150px;
@@ -361,12 +554,42 @@ hr {
 
   .text-profile {
     padding-left: 80px;
-    border-radius: 3.5% / 11%;
+    border-radius: 3% / 10%;
   }
 
   .description {
     font-size: 1.1rem;
-    width: 500px;
+    width: 550px;
+  }
+
+  .skill-title {
+    font-size: 2.5rem;
+  }
+
+  .skill-content {
+    font-size: 1.1rem;
+  }
+
+  .logos {
+    height: 60px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 260px 260px 260px;
+    grid-template-rows: 350px 350px;
+  }
+
+  .image-project {
+    height: 150px;
+  }
+
+  .projects {
+    font-size: 2.5rem;
+  }
+
+  .project-description {
+    margin-left: 3px;
+    font-size: 1.1rem;
   }
 }
 
@@ -382,7 +605,7 @@ hr {
     font-size: 1.2rem;
   }
 
-  p {
+  .intro {
     font-size: 10pt;
     width: 220px;
   }
@@ -411,6 +634,10 @@ hr {
     width: 100px;
   }
 
+  .profile {
+    height: 450px;
+  }
+
   .name {
     display: block;
     padding-left: 110px;
@@ -432,12 +659,55 @@ hr {
 
   .text-profile {
     padding-left: 125px;
-    border-radius: 4% / 11%;
+    border-radius: 5% / 11%;
   }
 
   .description {
     font-size: 1rem;
     width: 350px;
+  }
+
+  .skill {
+    display: 0;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .container-skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skill-title {
+    font-size: 2.5rem;
+  }
+
+  .skill-content {
+    display: inline;
+    font-size: 1rem;
+  }
+
+  .logos {
+    height: 50px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 260px 260px;
+    grid-template-rows: 250px 250px 250px;
+  }
+
+  .projects {
+    font-size: 2.5rem;
+  }
+
+  .project-title {
+    font-size: 1.4rem;
+  }
+
+  .project-description {
+    margin-left: 10px;
+    font-size: 1rem;
   }
 }
 
@@ -462,7 +732,7 @@ hr {
     font-size: 1.7rem;
   }
 
-  p {
+  .intro {
     font-size: 1rem;
     width: 230px;
     margin-left: 35px;
@@ -493,16 +763,20 @@ hr {
     top: 240px;
   }
 
+  .profile {
+    height: 590px;
+  }
+
   .profile-picture2 {
     flex: block;
     flex-direction: column;
+    gap: 40px;
     left: 0px;
     margin: 0;
   }
 
   .profile-img {
     left: 0;
-    margin-bottom: 35px;
     width: 200px;
     border-radius: 50%;
   }
@@ -510,17 +784,17 @@ hr {
   .about-me {
     display: inline;
     position: relative;
-    left: 130px;
+    left: 110px;
     font-size: 1.1rem;
     margin-left: 0px;
     text-align: center;
-    padding: 8px;
+    padding: 8px 12px;
     margin: 0px;
   }
 
   .text-profile {
     width: 345px;
-    border-radius: 5% / 10%;
+    border-radius: 6% / 10%;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -531,6 +805,19 @@ hr {
     font-size: 1rem;
     width: 100%;
     margin: 0px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 270px 270px 270px;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .image-project {
+    height: 150px;
   }
 }
 
@@ -548,12 +835,12 @@ hr {
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     margin-bottom: 8px;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 25px;
   }
 
@@ -589,7 +876,7 @@ hr {
   }
 
   .profile {
-    height: 660px;
+    height: 680px;
   }
 
   .profile-picture2 {
@@ -601,7 +888,6 @@ hr {
 
   .profile-img {
     left: 0;
-    margin-bottom: 40px;
     width: 200px;
     border-radius: 50%;
   }
@@ -609,11 +895,11 @@ hr {
   .about-me {
     display: inline;
     position: relative;
-    left: 45px;
+    left: 40px;
     font-size: 1.1rem;
     margin-left: 0px;
     text-align: center;
-    padding: 8px;
+    padding: 8px 13px;
     margin: 0px;
   }
 
@@ -630,5 +916,48 @@ hr {
     font-size: 11pt;
     width: 100%;
     margin: 0px;
+  }
+
+  .container-skills {
+    height: 520px;
+  }
+
+  .skill-title {
+    font-size: 2.1rem;
+  }
+
+  .skill-content {
+    margin-left: 0px;
+  }
+
+  .skill-content.list {
+    gap: 30px;
+    margin-left: -40px;
+  }
+
+  .projects {
+    font-size: 2.1rem;
+  }
+
+  .projects-container {
+    height: 1810px;
+    border-radius: 0%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 300px;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+  }
+
+  .image-project {
+    height: 180px;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .project-description {
+    width: 280px;
   }
 }
