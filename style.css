@@ -288,6 +288,7 @@ a {
 
 .social {
   height: 30px;
+  padding: 0 3px;
 }
 
 @media (max-width: 1545px) {
