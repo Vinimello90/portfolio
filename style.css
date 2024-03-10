@@ -344,7 +344,7 @@ a {
   }
 
   .projects {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 
   .project-description {
@@ -852,9 +852,10 @@ a {
     height: 510px;
   }
 
+
   .projects-grid {
-    grid-template-columns: 240px 240px;
-    grid-template-rows: 270px 270px 270px;
+    grid-template-columns: 310px;
+    grid-template-rows: repeat(260px;);
   }
 
   .project-title {
@@ -862,13 +863,13 @@ a {
   }
 
   .image-project {
-    height: 150px;
+    height: 160px;
   }
 
   .projects-container {
-    height: 1030px;
+    height: 1830px;
   }
-}
+
 
 @media (max-width: 400px) {
   .title-name {
@@ -994,7 +995,7 @@ a {
 
   .projects-grid {
     grid-template-columns: 300px;
-    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: repeat(250px;);
   }
 
   .image-project {
