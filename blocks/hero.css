@@ -1,0 +1,167 @@
+.hero {
+  padding: 40px 40px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1360px;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 80px;
+}
+
+.hero__job {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 10px 0;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.hero__job_highlight {
+  color: #ffb300;
+}
+
+.hero__message {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  max-width: 370px;
+  width: 30vw;
+}
+
+.hero__image {
+  max-width: 530px;
+  width: 41.41vw;
+}
+
+.hero__background-one {
+  position: absolute;
+  width: 8.31vw;
+  max-width: 106.36px;
+  top: 60px;
+  right: 0px;
+}
+
+.hero__background-two {
+  position: absolute;
+  max-width: 380px;
+  width: 31.25vw;
+  top: 0;
+  left: -50px;
+}
+
+.hero__background-three {
+  position: absolute;
+  max-width: 120px;
+  width: 10.93vw;
+  left: 5px;
+  bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero__title {
+    font-size: 58px;
+  }
+
+  .hero__job {
+    font-size: 25px;
+  }
+
+  .hero__message {
+    font-size: 14px;
+  }
+
+  .hero__background-two {
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    padding: 90px 15px 40px;
+  }
+
+  .hero__container {
+    flex-direction: column;
+  }
+
+  .hero__title {
+    font-size: 64px;
+    text-align: center;
+  }
+
+  .hero__job {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero__message {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 290px;
+  }
+
+  .hero__image {
+    width: 300px;
+  }
+
+  .hero__background-one {
+    width: 63.819px;
+    right: 0;
+    top: 250px;
+  }
+
+  .hero__background-two {
+    width: 220px;
+  }
+
+  .hero__background-three {
+    width: 80px;
+    bottom: 280px;
+  }
+
+  @media screen and (max-width: 430px) {
+    .hero__title {
+      font-size: 45px;
+    }
+
+    .hero__job {
+      font-size: 23px;
+    }
+
+    .hero__message {
+      font-size: 14px;
+      max-width: 314px;
+    }
+
+    .hero__image {
+      width: 240px;
+    }
+
+    .hero__background-one {
+      width: 53.16px;
+      top: 230px;
+    }
+
+    .hero__background-two {
+      width: 200px;
+    }
+
+    .hero__background-three {
+      width: 60px;
+      bottom: 210px;
+    }
+  }
+}

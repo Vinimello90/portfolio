@@ -1,0 +1,32 @@
+.header {
+  background-color: #ffee9b;
+  border-bottom: 6px solid #ffb300;
+  position: relative;
+}
+
+.header__background {
+  position: absolute;
+  width: 320px;
+  height: 45px;
+  left: 0;
+  bottom: -26px;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    border-bottom: 4.5px solid #ffb300;
+  }
+  .header__background {
+    width: 230px;
+    height: 35px;
+    bottom: -20.5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__background {
+    width: 200px;
+    height: 30px;
+    bottom: -17.5px;
+  }
+}
