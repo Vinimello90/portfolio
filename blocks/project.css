@@ -1,0 +1,143 @@
+.project {
+  display: grid;
+  place-content: center;
+  max-width: 1280px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 0;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.project__image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.project__info {
+  position: relative;
+  background-color: #ffd677;
+  max-height: 40px;
+  overflow: hidden;
+  transition: max-height ease-in 0.3s;
+}
+
+.project__info_display {
+  max-height: 300px;
+}
+
+.project__title {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #ffb300;
+  text-align: center;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.project__toggle {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  height: 23px;
+  width: 23px;
+  left: 10px;
+  top: 8.705px;
+  transition: opacity linear 0.3s;
+  cursor: pointer;
+}
+
+.project__toggle:hover {
+  opacity: 0.6;
+}
+
+.project__toggle_plus {
+  background: url("../images/square-plus-regular.svg") no-repeat center;
+}
+
+.project__info_display .project__toggle_plus {
+  display: none;
+}
+
+.project__toggle_minus {
+  display: none;
+}
+
+.project__info_display .project__toggle_minus {
+  display: block;
+  background: url("../images/square-minus-regular.svg") no-repeat center;
+}
+
+.project__description {
+  font-size: 14px;
+
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.project__link-container {
+  display: flex;
+}
+
+.project__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 8px;
+  color: #fff5d3;
+  text-decoration: none;
+  transition: background-color linear 0.3s;
+}
+
+.project__link_content_online {
+  border-bottom-left-radius: 15px;
+  background-color: #004280;
+}
+
+.project__link_content_online:hover {
+  background-color: #0057a8;
+}
+
+.project__link_content_github {
+  border-bottom-right-radius: 15px;
+  background-color: #000000;
+}
+
+.project__link_content_github:hover {
+  background-color: #272727;
+}
+
+@media screen and (max-width: 763px) {
+  .project {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 350px;
+  }
+
+  .project__item {
+    width: 89vw;
+    max-width: 400px;
+  }
+
+  .project__image {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .project__image {
+    height: 130px;
+  }
+}
