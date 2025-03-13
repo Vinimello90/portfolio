@@ -1,6 +1,11 @@
 # Portfólio
 
 Este projeto é o meu portfólio, destinado a compartilhar informações sobre mim e os projetos que foram desenvolvidos. Foi desenvolvido utilizando `HTML`, `CSS` e `JavaScript`. O site é dividido em seções: no header, há uma seção de introdução, uma seção de perfil falando sobre mim e uma seção com os projetos que foram desenvolvidos.
+<br>
+
+<p align="center"><img src="./images/portifolio.png" alt="imagem do portifólio" width=40%></p>
+
+**Para ver o projeto em execução clique <a href="https://vinimello90.github.io/portfolio/">aqui</a>.**
 
 ## Tecnologias
 
@@ -15,11 +20,6 @@ Este projeto é o meu portfólio, destinado a compartilhar informações sobre m
 - Media queries
 - React JS
 - API
-
-**Para ver o projeto em execução clique <a href="https://vinimello90.github.io/portfolio/">aqui</a>.**
-
-<br>
-<p align="center"><img src="./images/portifolio.png" alt="imagem do portifólio" width=40%></p>
 
 ## Descrição das Tecnologias e Técnicas Utilizadas
 
