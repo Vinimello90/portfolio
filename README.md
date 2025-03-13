@@ -2,6 +2,20 @@
 
 Este projeto é o meu portfólio, destinado a compartilhar informações sobre mim e os projetos que foram desenvolvidos. Foi desenvolvido utilizando `HTML`, `CSS` e `JavaScript`. O site é dividido em seções: no header, há uma seção de introdução, uma seção de perfil falando sobre mim e uma seção com os projetos que foram desenvolvidos.
 
+## Tecnologias
+
+- HTML5 semântico
+- Metodologia BEM
+- Flexbox
+- Grid
+- Text-overflow
+- Hover
+- Pseudo-classe
+- Unidades de medida relativas
+- Media queries
+- React JS
+- API
+
 **Para ver o projeto em execução clique <a href="https://vinimello90.github.io/portfolio/">aqui</a>.**
 
 <br>
@@ -39,7 +53,7 @@ As `media queries` foram implementadas para ajustar o layout de acordo com os po
 
 ### JavaScript
 
-Foi utilizado para adicionar a função de expandir as descrições dos projetos, adicionando `event listeners` para escutar o clique no botão e chamar a função que irá manipular o `DOM` e adicionar as classes que irão expandir/fechar o elemento da descrição do projeto.
+No `JavaScript`, foram utilizadas `classes` para adicionar o mockup do card ao `grid` na seção "projects" e adicionar o `eventListener` para manipular e renderizar os mockups dos cards através dos métodos da classe. Isso permite expandir e fechar a área de descrição, além de facilitar a adição e alteração dos cards na lista de projetos. Além disso, foi aplicada a propriedade `transition` para criar uma animação suave ao expandir.
 
 <img src="./images/project-expansion.png">
 
