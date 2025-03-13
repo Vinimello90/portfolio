@@ -5,7 +5,7 @@ Este projeto é o meu portfólio, destinado a compartilhar informações sobre m
 **Para ver o projeto em execução clique <a href="https://vinimello90.github.io/portfolio/">aqui</a>.**
 
 <br>
-<center><img src="./images/portifolio.png" alt="imagem do portifólio" width=40%></center>
+<p align="center"><img src="./images/portifolio.png" alt="imagem do portifólio" width=40%></p>
 
 ## Descrição das Tecnologias e Técnicas Utilizadas
 
