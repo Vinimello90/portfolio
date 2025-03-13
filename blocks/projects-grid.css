@@ -1,0 +1,26 @@
+.projects-grid {
+  display: grid;
+  place-content: center;
+  max-width: 1280px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 0;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 350px;
+  }
+}

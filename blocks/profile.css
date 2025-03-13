@@ -3,144 +3,14 @@
   padding: 80px 40px 80px;
 }
 
-.profile__container {
-  display: flex;
-  justify-content: space-between;
-  background-color: #ffe3a3;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 60px 40px 40px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-}
-
-.profile__info {
-  margin: 0 20px;
-}
-
-.profile__photo {
-  position: relative;
-  font-size: 0;
-}
-
-.profile__photo::after {
-  position: absolute;
-  content: "";
-  top: -20px;
-  left: -20px;
-  width: 19.53vw;
-  max-width: 250px;
-  height: 280px;
-  background-color: #ffb300;
-}
-
-.profile__img {
-  position: relative;
-  object-fit: cover;
-  width: 19.53vw;
-  max-width: 250px;
-  height: 280px;
-  z-index: 1;
-}
-
-.profile__content {
-  display: flex;
-  flex-direction: column;
-}
-
-.profile__title {
-  position: relative;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 700;
-  line-height: 1.12;
-  width: fit-content;
-  margin: 0;
-  z-index: 0;
-}
-
-.profile__title::before {
-  position: absolute;
-  top: 13px;
-  left: 5px;
-  content: "";
-  width: 120px;
-  height: 13px;
-  background-color: #ffb300;
-  z-index: -1;
-}
-
-.profile__description {
-  max-width: 690px;
-  margin: 20px 0 0;
-}
-
 @media screen and (max-width: 1024px) {
   .profile {
     padding: 50px 20px 40px;
-  }
-
-  .profile__photo::after {
-    position: absolute;
-    content: "";
-    top: -20px;
-    left: -20px;
-    background-color: #ffb300;
-  }
-
-  .profile__img {
-    position: relative;
-    object-fit: cover;
-
-    z-index: 1;
-  }
-
-  .profile__title {
-    font-size: 18px;
-  }
-
-  .profile__title::before {
-    top: 13px;
-    left: 5px;
-    width: 105px;
-  }
-
-  .profile__description {
-    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 763px) {
   .profile {
     padding: 40px 20px;
-  }
-
-  .profile__container {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px 20px;
-  }
-
-  .profile__photo {
-    margin-left: 20px;
-  }
-
-  .profile__photo::after {
-    width: 200px;
-    height: 230px;
-  }
-
-  .profile__img {
-    width: 200px;
-    height: 230px;
-  }
-
-  .profile__content {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .profile__description {
-    font-size: 12px;
   }
 }

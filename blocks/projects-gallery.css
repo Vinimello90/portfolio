@@ -1,11 +1,11 @@
-.projects {
+.projects-gallery {
   background-color: #ffeeb1;
   justify-content: center;
   align-items: center;
   padding: 45px 40px;
 }
 
-.projects__section-title {
+.projects-gallery__title {
   position: relative;
   font-family: "Lexend Deca", sans-serif;
   font-size: 60px;
@@ -18,15 +18,7 @@
   z-index: 0;
 }
 
-.projects__section-description {
-  text-align: center;
-  font-size: 18px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 30px 0;
-}
-
-.projects__section-title::after {
+.projects-gallery__title::after {
   position: absolute;
   background-color: #ffb300;
   content: "";
@@ -38,55 +30,31 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .projects__section-title {
+  .projects-gallery__title {
     font-size: 45px;
   }
 
-  .projects__section-title::after {
+  .projects-gallery__title::after {
     top: 36px;
     width: 190px;
-  }
-
-  .project {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
   }
 }
 
 @media screen and (max-width: 763px) {
-  .projects {
+  .projects-gallery {
     padding: 40px 20px;
-  }
-  .project {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 350px;
-  }
-
-  .project__item {
-    width: 89vw;
-    max-width: 400px;
-  }
-
-  .project__image {
-    height: 200px;
   }
 }
 
 @media screen and (max-width: 430px) {
-  .projects__section-title {
+  .projects-gallery__title {
     font-size: 35px;
   }
 
-  .projects__section-title::after {
+  .projects-gallery__title::after {
     top: 30px;
     left: 10px;
     width: 150px;
     height: 15px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .project__image {
-    height: 130px;
   }
 }
