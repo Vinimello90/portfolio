@@ -13,13 +13,11 @@ Este projeto é o meu portfólio, destinado a compartilhar informações sobre m
 - Metodologia BEM
 - Flexbox
 - Grid
-- Text-overflow
 - Hover
 - Pseudo-classe
 - Unidades de medida relativas
 - Media queries
-- React JS
-- API
+- JavaScript
 
 ## Descrição das Tecnologias e Técnicas Utilizadas
 
