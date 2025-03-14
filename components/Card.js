@@ -40,6 +40,8 @@ export default class Card {
     this._cardImageElement.src = this._image;
     this._cardImageElement.alt = `Captura de tela do projeto ${this._title}`;
     this._cardElement.querySelector(".card__title").textContent = this._title;
+    this._cardElement.querySelector(this._selectors.cardDesc).textContent =
+      this._description;
     this._cardElement.querySelector(this._selectors.onlineLink).href =
       this._links.onlineLink;
     this._cardElement.querySelector(this._selectors.githubLink).href =

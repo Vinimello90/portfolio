@@ -40,6 +40,7 @@ const addCards = new Section(
           },
         },
         {
+          cardDesc: ".card__description",
           onlineLink: ".card__link_content_online",
           githubLink: ".card__link_content_github",
           toggleButton: ".card__button",
