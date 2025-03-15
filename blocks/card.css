@@ -11,7 +11,7 @@
   background-color: #ffd677;
   max-height: 40px;
   overflow: hidden;
-  transition: max-height linear 0.3s;
+  transition: max-height ease-in-out 0.3s;
 }
 
 .card__info_display {

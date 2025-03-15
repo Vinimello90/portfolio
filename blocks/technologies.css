@@ -1,0 +1,28 @@
+.technologies {
+  background-color: #fff7d3;
+  padding: 50px 20px 60px;
+  margin: 0;
+}
+
+.technologies__title {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1.21;
+}
+
+@media screen and (max-width: 763px) {
+  .technologies {
+    padding: 40px 20px 50px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .technologies__title {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

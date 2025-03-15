@@ -1,0 +1,34 @@
+.technology {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 0;
+  list-style: none;
+  gap: 20px;
+  padding-top: 30px;
+  max-width: 750px;
+}
+
+.technology__icon {
+  width: 7.14vw;
+  max-width: 80px;
+  min-width: 75px;
+  transform: scale(1);
+  transition: transform ease-in-out 0.4s;
+}
+
+.technology__icon:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 539px) {
+  .technology {
+    gap: 15px;
+  }
+
+  .technology__icon {
+    min-width: 65px;
+  }
+}

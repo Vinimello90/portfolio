@@ -2,14 +2,14 @@
   background-color: #ffeeb1;
   justify-content: center;
   align-items: center;
-  padding: 45px 40px;
+  padding: 60px 40px;
 }
 
 .projects-gallery__title {
   position: relative;
   font-family: "Lexend Deca", sans-serif;
   font-size: 60px;
-  line-height: 1.21;
+  line-height: 0.7;
   font-weight: 700;
   color: black;
   text-align: center;
@@ -22,7 +22,7 @@
   position: absolute;
   background-color: #ffb300;
   content: "";
-  top: 50px;
+  top: 35px;
   left: 15px;
   height: 20px;
   width: 250px;
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 763px) {
   .projects-gallery {
-    padding: 40px 20px;
+    padding: 50px 20px;
   }
 }
 

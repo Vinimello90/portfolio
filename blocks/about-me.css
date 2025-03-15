@@ -70,10 +70,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .profile {
-    padding: 50px 20px 40px;
-  }
-
   .about-me__photo::after {
     position: absolute;
     content: "";
@@ -104,7 +100,7 @@
   }
 }
 
-@media screen and (max-width: 763px) {
+@media screen and (max-width: 800px) {
   .about-me {
     flex-direction: column;
     align-items: center;
