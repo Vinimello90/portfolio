@@ -5,6 +5,12 @@
 
 .footer__copyright {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
+}
+
+@media screen and (max-width: 539px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
 }
