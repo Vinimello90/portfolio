@@ -1,4 +1,9 @@
-import { cards } from "../utils/constants.js";
+import {
+  cards,
+  navElement,
+  navLinkElements,
+  toggleButtons,
+} from "../utils/constants.js";
 import Card from "../components/Card.js";
 import Section from "../components/Section.js";
 
@@ -53,3 +58,16 @@ const addCards = new Section(
 );
 
 addCards.renderer();
+
+function handleToggleNav() {
+  console.log("teste");
+  navElement.classList.toggle("nav_show");
+}
+
+toggleButtons.forEach((button) => {
+  button.addEventListener("click", handleToggleNav);
+});
+
+navLinkElements.forEach((link) => {
+  link.addEventListener("click", handleToggleNav);
+});

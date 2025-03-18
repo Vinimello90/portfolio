@@ -1,5 +1,5 @@
 .header {
-  background-color: #ffee9b;
+  background-color: #ffe8b3;
   border-bottom: 6px solid #ffb300;
   position: relative;
 }
@@ -16,6 +16,7 @@
   .header {
     border-bottom: 4.5px solid #ffb300;
   }
+
   .header__background {
     width: 230px;
     height: 35px;

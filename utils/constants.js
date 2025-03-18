@@ -49,3 +49,7 @@ export const cards = [
     gitHubLink: "https://github.com/Vinimello90/web_project_around#readme",
   },
 ];
+
+export const navElement = document.querySelector(".nav");
+export const navLinkElements = document.querySelectorAll(".nav__link");
+export const toggleButtons = document.querySelectorAll(".toggle-button");

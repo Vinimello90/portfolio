@@ -2,13 +2,15 @@
 @import url("../vendor/fonts.css");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
-@import url("../blocks/hero.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/toggle-button.css");
 @import url("../blocks/profile.css");
 @import url("../blocks/about-me.css");
 @import url("../blocks/social.css");
 @import url("../blocks/projects-gallery.css");
 @import url("../blocks/projects-grid.css");
 @import url("../blocks/card.css");
-@import url("../blocks/technologies.css");
+@import url("../blocks/skills.css");
 @import url("../blocks/technology.css");
 @import url("../blocks/footer.css");

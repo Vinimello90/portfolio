@@ -45,7 +45,7 @@
 
 .about-me__title {
   position: relative;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.12;
   width: fit-content;
@@ -53,12 +53,12 @@
   z-index: 0;
 }
 
-.about-me__title::before {
+.about-me__title::after {
   position: absolute;
   top: 13px;
   left: 5px;
   content: "";
-  width: 120px;
+  width: calc(100% + 10px);
   height: 13px;
   background-color: #ffb300;
   z-index: -1;
@@ -67,6 +67,7 @@
 .about-me__description {
   max-width: 690px;
   margin: 20px 0 0;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1024px) {
@@ -89,8 +90,8 @@
     font-size: 18px;
   }
 
-  .about-me__title::before {
-    top: 13px;
+  .about-me__title::after {
+    top: 11px;
     left: 5px;
     width: 105px;
   }
@@ -123,11 +124,5 @@
 
   .about-me__content {
     margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .about-me__description {
-    font-size: 12px;
   }
 }

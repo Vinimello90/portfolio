@@ -19,7 +19,7 @@
 }
 
 .card__title {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: #000000;
@@ -87,12 +87,12 @@
   justify-content: center;
   gap: 10px;
   width: 100%;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 600;
   margin: 0px;
   padding: 8px;
-  color: #fff5d3;
+  color: #ffffff;
   text-decoration: none;
   transition: background-color ease-in-out 0.3s;
 }

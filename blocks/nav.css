@@ -1,0 +1,148 @@
+.nav {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.nav__list {
+  display: flex;
+  max-width: 1380px;
+  justify-content: end;
+  margin: 0;
+  padding: 40px 0 0 0;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav__title {
+  display: none;
+}
+
+.nav__link {
+  position: relative;
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  color: #d39400;
+  font-size: 18px;
+  font-weight: 600;
+  width: fit-content;
+  transition: color linear 0.3s;
+}
+
+.nav__link:hover {
+  color: #ffb300;
+}
+
+.nav__link::after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 50%;
+  height: 3px;
+  width: 0;
+  transform: translateX(-50%);
+  background-color: #d39400;
+  transition: width linear 0.3s, background-color linear 0.3s;
+}
+
+.nav__link:hover::after {
+  width: 75%;
+  background-color: #ffb300;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .nav__list {
+    padding: 30px 20px 40px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .nav {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #837d7075;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .nav_show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    position: relative;
+    background-color: #ffeec8;
+    transform: translateY(-100%);
+    padding: 0;
+    gap: 0;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.397);
+    z-index: 99;
+    transition: transform ease-in-out 0.3s;
+  }
+
+  .nav_show .nav__list {
+    transform: translateY(0%);
+  }
+
+  .nav__item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: solid 1px #ffb300;
+  }
+
+  .nav__item:first-of-type {
+    padding: 24px 0;
+  }
+
+  .nav__item:last-of-type {
+    border-bottom: none;
+  }
+
+  .nav__title {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav__title::after {
+    position: absolute;
+    top: 11px;
+    left: 5px;
+    content: "";
+    width: calc(100% + 10px);
+    height: 13px;
+    background-color: #ffb300;
+    z-index: -1;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    color: #d39400;
+    margin: 0;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+  }
+
+  .nav__link.nav__link:hover::after {
+    width: 0;
+  }
+}

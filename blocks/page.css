@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   line-height: 1.5;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }

@@ -1,16 +1,16 @@
 .projects-gallery {
-  background-color: #ffeeb1;
+  background-color: #fbe8b3;
   justify-content: center;
   align-items: center;
-  padding: 60px 40px;
+  padding: 90px 40px;
 }
 
 .projects-gallery__title {
   position: relative;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 60px;
   line-height: 0.7;
-  font-weight: 700;
+  font-weight: 900;
   color: black;
   text-align: center;
   margin: 0 auto 40px;
@@ -22,10 +22,10 @@
   position: absolute;
   background-color: #ffb300;
   content: "";
-  top: 35px;
+  top: 30px;
   left: 15px;
   height: 20px;
-  width: 250px;
+  width: calc(100% + 10px);
   z-index: -1;
 }
 
@@ -35,8 +35,7 @@
   }
 
   .projects-gallery__title::after {
-    top: 36px;
-    width: 190px;
+    top: 22px;
   }
 }
 
@@ -48,13 +47,12 @@
 
 @media screen and (max-width: 430px) {
   .projects-gallery__title {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .projects-gallery__title::after {
-    top: 30px;
+    height: 13px;
+    top: 15px;
     left: 10px;
-    width: 150px;
-    height: 15px;
   }
 }

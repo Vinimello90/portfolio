@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="shortcut icon" type="svg" href="./favicon.svg" />
@@ -29,37 +29,108 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="hero">
-          <div class="hero__container">
-            <div class="hero__text">
-              <h1 class="hero__title">Eu sou Vinicius</h1>
-              <h2 class="hero__job">
+        <div class="intro">
+          <button type="button" class="toggle-button toggle-button_type_open">
+            <svg
+              class="toggle-button__icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+          </button>
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <p class="nav__title">Portfólio Menu</p>
+              </li>
+              <li class="nav__item-button">
+                <button
+                  type="button"
+                  class="toggle-button toggle-button_type_close"
+                >
+                  <svg
+                    class="toggle-button__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                  >
+                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                    />
+                  </svg>
+                </button>
+              </li>
+              <li class="nav__item">
+                <a href="#intro__container" class="nav__link">Início</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about-me" class="nav__link">Sobre</a>
+              </li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link">Projetos</a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__link">Habilidades</a>
+              </li>
+            </ul>
+          </div>
+          <div class="intro__container" id="intro__container">
+            <div class="intro__text">
+              <p class="intro__greetings">Olá, eu sou</p>
+              <h1 class="intro__title">Vinicius</h1>
+              <h2 class="intro__job">
                 Desenvolvedor
-                <span class="hero__job hero__job_highlight">Web</span>
+                <span class="intro__job intro__job_highlight">Front-End</span>
               </h2>
-              <p class="hero__message">
-                "Criando experiências web que conectam pessoas e transformam
-                negócios."
+              <p class="intro__message">
+                Seja bem vindo ao meu portfólio website!
+              </p>
+              <p class="intro__buttons">
+                <a
+                  href="#about-me"
+                  class="intro__button intro__button_type_linkedin"
+                  ><img
+                    src="./images/linkedin.svg"
+                    alt=""
+                    class="intro__icon"
+                  />
+                  LinkedIn</a
+                >
+                <a
+                  href="#about-me"
+                  class="intro__button intro__button_type_whatsapp"
+                  ><svg
+                    class="intro__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                    />
+                  </svg>
+                  WhatsApp</a
+                >
               </p>
             </div>
             <img
-              class="hero__image"
+              class="intro__image"
               src="./images/web-development.png"
               alt="imagem de uma pessoa programando"
             />
-            <img class="hero__background-one" src="./images/bg-1.png" alt="" />
-            <img class="hero__background-two" src="./images/bg-2.png" alt="" />
-            <img
-              class="hero__background-three"
-              src="./images/bg-3.png"
-              alt=""
-            />
+            <img class="intro__background-one" src="./images/bg-1.png" alt="" />
           </div>
+          <img class="intro__background-two" src="./images/bg-2.png" alt="" />
+          <img class="intro__background-three" src="./images/bg-3.png" alt="" />
         </div>
         <img class="header__background" src="./images/bg.png" alt="" />
       </header>
       <main class="main">
-        <section class="profile">
+        <section class="profile" id="about-me">
           <div class="about-me">
             <div class="about-me__info">
               <div class="about-me__photo">
@@ -86,45 +157,60 @@
                 <ul class="social__list">
                   <li class="social__item">
                     <a
-                      class="social__link social__link_icon_linkedin"
+                      class="social__link"
                       href="https://www.linkedin.com/in/vinicius-barretto-mello-2801402b0"
                       target="_blank"
-                    ></a>
+                      ><img
+                        class="social__icon social__icon_type_linkedin"
+                        src="./images/linkedin.svg"
+                        alt=""
+                    /></a>
                   </li>
                   <li class="social__item">
                     <a
                       class="social__link social__link_icon_github"
                       href="https://github.com/Vinimello90"
                       target="_blank"
-                    ></a>
+                      ><img
+                        class="social__icon social__icon_type_github"
+                        src="./images/github-brands.svg"
+                        alt=""
+                    /></a>
                   </li>
                   <li class="social__item">
                     <a
                       class="social__link social__link_icon_email"
                       href="mailto:vinicius.barretto9022@gmail.com"
                       target="_blank"
-                    ></a>
+                      ><img
+                        class="social__icon social__icon_type_email"
+                        src="./images/icon-email.svg"
+                        alt=""
+                    /></a>
                   </li>
                   <li class="social__item">
                     <a
                       class="social__link social__link_icon_whatsapp"
                       href="https://wa.me/5517992487641"
                       target="_blank"
-                    ></a>
+                      ><img
+                        class="social__icon social__icon_type_whatsapp"
+                        src="./images/whatsapp.svg"
+                        alt=""
+                    /></a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
-        <section class="projects-gallery">
+        <section class="projects-gallery" id="projects">
           <h2 class="projects-gallery__title">Projetos</h2>
           <ul class="projects-grid"></ul>
         </section>
-        <section class="technologies">
-          <h1 class="technologies__title">
-            Tecnologias que utilizo para desenvolver
-          </h1>
+        <section class="skills" id="skills">
+          <h2 class="projects-gallery__title">Habilidades</h2>
+          <p class="skills__title">Tecnologias que utilizo para desenvolver</p>
           <ul class="technology">
             <li class="technology__item">
               <img

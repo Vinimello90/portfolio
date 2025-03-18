@@ -12,42 +12,32 @@
 }
 
 .social__link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 35px;
   height: 35px;
   border-radius: 50%;
   border: none;
-  background-color: #d89d14;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px;
+  background-image: linear-gradient(360deg, #d39400 0.2%, #ffb300 100%);
+  background-color: #ffb300;
   cursor: pointer;
-  transition: background-color linear 0.2s;
+  transition: background-color linear 0.3s;
 }
 
 .social__link:hover {
-  background-color: #ffb300;
-  padding: 0;
+  background-image: none;
 }
 
-.social__link_icon_linkedin {
-  background-image: url("../images/linkedin.svg");
-  background-size: 15px;
+.social__icon {
+  width: 18px;
 }
 
-.social__link_icon_github {
-  background-image: url("../images/github-brands.svg");
+.social__icon_type_linkedin {
+  width: 15px;
 }
 
-.social__link_icon_email {
-  background-image: url("../images/icon-email.svg");
-}
-
-.social__link_icon_whatsapp {
-  background-image: url("../images/whatsapp.svg");
-}
-
-@media screen and (max-width: 763px) {
+@media screen and (max-width: 800px) {
   .social__list {
     justify-content: center;
   }

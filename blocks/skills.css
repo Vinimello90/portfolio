@@ -1,27 +1,28 @@
-.technologies {
+.skills {
   background-color: #fff7d3;
-  padding: 50px 20px 60px;
+  padding: 80px 20px 90px;
   margin: 0;
 }
 
-.technologies__title {
+.skills__title {
   position: relative;
   width: fit-content;
   margin: 0 auto;
-  font-size: 52px;
+  font-weight: 700;
+  font-size: 38px;
   text-align: center;
   line-height: 1.21;
 }
 
 @media screen and (max-width: 763px) {
-  .technologies {
+  .skills {
     padding: 40px 20px 50px;
   }
 }
 
-@media screen and (max-width: 539px) {
-  .technologies__title {
-    font-size: 35px;
+@media screen and (max-width: 530px) {
+  .skills__title {
+    font-size: 24px;
     margin: 0 auto;
     text-align: center;
   }

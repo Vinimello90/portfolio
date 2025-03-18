@@ -1,0 +1,301 @@
+.intro {
+  padding: 0 140px 90px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  max-width: 1150px;
+}
+
+.intro__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__greetings {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 45px;
+  margin: 0 0 15px;
+}
+
+.intro__title {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 140px;
+  width: fit-content;
+}
+
+.intro__job {
+  font-family: "Roboto", sans-serif;
+  margin: 5px 0;
+  font-size: 39px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: left;
+  color: black;
+}
+
+.intro__job_highlight {
+  color: #ffb300;
+}
+
+.intro__message {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  width: 30vw;
+}
+
+.intro__buttons {
+  display: flex;
+  margin-top: 110px;
+  gap: 15px;
+}
+
+.intro__button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  background-image: linear-gradient(360deg, #d39400 0.2%, #ffb300 100%);
+  background-color: #ffb300;
+  width: fit-content;
+  padding: 8px 25px;
+  border-radius: 30px;
+  color: white;
+  transition: all linear 0.3s;
+}
+
+.intro__button_type_whatsapp {
+  background-image: none;
+  background-color: transparent;
+  border: 2px solid #d39400;
+  color: #d39400;
+  fill: #d39400;
+}
+
+.intro__button:hover {
+  background-image: none;
+  border-color: #ffb300;
+  background-color: #ffb300;
+  color: white;
+  fill: white;
+}
+
+.intro__icon {
+  height: 25px;
+}
+
+.intro__image {
+  max-width: 590px;
+  width: 41.41vw;
+}
+
+.intro__background-one {
+  position: absolute;
+  width: 6.5vw;
+  max-width: 106.36px;
+  right: 0px;
+  align-self: center;
+}
+
+.intro__background-two {
+  position: absolute;
+  max-width: 380px;
+  width: 31.25vw;
+  top: 0;
+  left: -50px;
+}
+
+.intro__background-three {
+  position: absolute;
+  max-width: 120px;
+  width: 10.93vw;
+  left: 5px;
+  bottom: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+  .intro__greetings {
+    font-size: 35px;
+  }
+
+  .intro__title {
+    font-size: 100px;
+  }
+
+  .intro__job {
+    font-size: 28px;
+  }
+
+  .intro__message {
+    font-size: 16px;
+  }
+  .intro__button {
+    font-size: 14px;
+  }
+
+  .intro__background-two {
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 70px 90px;
+  }
+
+  .intro__container {
+    justify-content: space-evenly;
+  }
+
+  .intro__greetings {
+    font-size: 40px;
+  }
+
+  .intro__title {
+    font-size: 72px;
+  }
+
+  .intro__job {
+    font-size: 20px;
+  }
+
+  .intro__buttons {
+    margin-top: 60px;
+  }
+
+  .intro__button {
+    font-size: 12px;
+    padding: 5px 15px;
+    gap: 3px;
+  }
+
+  .intro__icon {
+    height: 20px;
+  }
+
+  .intro__background-two {
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .intro {
+    padding: 0 15px 40px;
+  }
+
+  .intro__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .intro__greetings {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  .intro__title {
+    font-size: 90px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .intro__job {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .intro__message {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 290px;
+  }
+
+  .intro__buttons {
+    margin: 15px auto;
+  }
+
+  .intro__button {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+
+  .intro__image {
+    width: 300px;
+  }
+
+  .intro__background-one {
+    width: 63.819px;
+    right: 0;
+    top: 250px;
+  }
+
+  .intro__background-two {
+    width: 220px;
+  }
+
+  .intro__background-three {
+    width: 80px;
+    bottom: 280px;
+  }
+
+  @media screen and (max-width: 530px) {
+    .intro__container {
+      padding-top: 80px;
+    }
+
+    .intro__title {
+      font-size: 80px;
+    }
+
+    .intro__job {
+      font-size: 22px;
+    }
+
+    .intro__message {
+      font-size: 14px;
+      max-width: 314px;
+    }
+
+    .intro__button {
+      font-size: 12px;
+      padding: 5px 15px;
+      gap: 3px;
+    }
+
+    .intro__image {
+      width: 220px;
+    }
+
+    .intro__background-one {
+      width: 53.16px;
+      bottom: 10px;
+    }
+
+    .intro__background-two {
+      width: 200px;
+    }
+
+    .intro__background-three {
+      width: 60px;
+      bottom: 210px;
+    }
+  }
+}
