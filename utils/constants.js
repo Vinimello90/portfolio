@@ -50,6 +50,8 @@ export const cards = [
   },
 ];
 
-export const navElement = document.querySelector(".nav");
-export const navLinkElements = document.querySelectorAll(".nav__link");
-export const toggleButtons = document.querySelectorAll(".toggle-button");
+export const introElement = document.querySelector(".intro");
+export const navElement = introElement.querySelector(".nav");
+export const navLinkElements = introElement.querySelectorAll(".nav__link");
+export const openBtn = document.querySelector(".button_open");
+export const closeBtn = document.querySelector(".button_close");

@@ -1,0 +1,112 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-image: linear-gradient(360deg, #d39400 0.2%, #ffb300 100%);
+  background-color: #ffb300;
+  border: none;
+  fill: white;
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  transition: transform ease-in-out 0.3s, border-radius linear 0.3s,
+    backgroun-color linear 0.3s;
+}
+
+.button:hover {
+  background-image: none;
+}
+
+.button_open {
+  display: none;
+}
+
+.button_intro {
+  line-height: 0.5;
+  gap: 10px;
+  width: fit-content;
+  padding: 8px 25px;
+  border-radius: 30px;
+  transition: all linear 0.3s;
+}
+
+.button_intro_whatsapp {
+  background-image: none;
+  background-color: transparent;
+  border: 2px solid #d39400;
+  color: #d39400;
+  fill: #d39400;
+}
+
+.button_intro_whatsapp:hover {
+  background-color: #ffb300;
+  border-color: #ffb300;
+  color: #fff;
+  fill: #fff;
+}
+
+.button_intro-icon {
+  width: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+  .button_intro {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .button_intro {
+    font-size: 12px;
+    padding: 5px 20px;
+    gap: 5px;
+  }
+
+  .button_intro-icon {
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .button_open {
+    display: flex;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    border-radius: 10px;
+    top: 30px;
+    right: 30px;
+    z-index: 99;
+  }
+
+  .button_open:active {
+    background-image: none;
+    transform: rotate(90deg);
+  }
+
+  .button_close {
+    position: absolute;
+    border-radius: 50%;
+    top: 12px;
+    right: 12px;
+    z-index: 99;
+  }
+
+  .button_close:active {
+    background-image: none;
+    transform: rotate(90deg);
+  }
+
+  .button__menu-icon {
+    height: 20px;
+    width: 20px;
+    padding: 8px;
+  }
+
+  .button_intro {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+}

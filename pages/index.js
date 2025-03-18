@@ -2,7 +2,8 @@ import {
   cards,
   navElement,
   navLinkElements,
-  toggleButtons,
+  openBtn,
+  closeBtn,
 } from "../utils/constants.js";
 import Card from "../components/Card.js";
 import Section from "../components/Section.js";
@@ -59,15 +60,17 @@ const addCards = new Section(
 
 addCards.renderer();
 
-function handleToggleNav() {
-  console.log("teste");
+function handleDisplayNav() {
   navElement.classList.toggle("nav_show");
 }
 
-toggleButtons.forEach((button) => {
-  button.addEventListener("click", handleToggleNav);
-});
-
+openBtn.addEventListener("click", handleDisplayNav);
+closeBtn.addEventListener("click", handleDisplayNav);
 navLinkElements.forEach((link) => {
-  link.addEventListener("click", handleToggleNav);
+  link.addEventListener("click", handleDisplayNav);
+});
+navElement.addEventListener("click", (evt) => {
+  if (evt.target.classList.contains("nav_show")) {
+    handleDisplayNav();
+  }
 });

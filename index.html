@@ -29,10 +29,10 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="intro">
-          <button type="button" class="toggle-button toggle-button_type_open">
+        <div class="intro" id="intro">
+          <button type="button" class="button button_open">
             <svg
-              class="toggle-button__icon"
+              class="button__menu-icon"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >
@@ -48,12 +48,9 @@
                 <p class="nav__title">Portfólio Menu</p>
               </li>
               <li class="nav__item-button">
-                <button
-                  type="button"
-                  class="toggle-button toggle-button_type_close"
-                >
+                <button type="button" class="button button_close">
                   <svg
-                    class="toggle-button__icon"
+                    class="button__menu-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 384 512"
                   >
@@ -65,7 +62,7 @@
                 </button>
               </li>
               <li class="nav__item">
-                <a href="#intro__container" class="nav__link">Início</a>
+                <a href="#intro" class="nav__link">Início</a>
               </li>
               <li class="nav__item">
                 <a href="#about-me" class="nav__link">Sobre</a>
@@ -78,7 +75,7 @@
               </li>
             </ul>
           </div>
-          <div class="intro__container" id="intro__container">
+          <div class="intro__container">
             <div class="intro__text">
               <p class="intro__greetings">Olá, eu sou</p>
               <h1 class="intro__title">Vinicius</h1>
@@ -91,20 +88,21 @@
               </p>
               <p class="intro__buttons">
                 <a
-                  href="#about-me"
-                  class="intro__button intro__button_type_linkedin"
+                  href="https://www.linkedin.com/in/vinicius-barretto-mello-2801402b0"
+                  class="button button_intro"
+                  target="_blank"
                   ><img
                     src="./images/linkedin.svg"
                     alt=""
-                    class="intro__icon"
-                  />
-                  LinkedIn</a
+                    class="button_intro-icon"
+                  />LinkedIn</a
                 >
                 <a
-                  href="#about-me"
-                  class="intro__button intro__button_type_whatsapp"
+                  href="https://wa.me/5517992487641"
+                  class="button button_intro button_intro_whatsapp"
+                  target="_blank"
                   ><svg
-                    class="intro__icon"
+                    class="button_intro-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
@@ -140,7 +138,7 @@
             <div class="about-me__content">
               <h2 class="about-me__title">Sobre mim</h2>
               <p class="about-me__description">
-                Com mais de 10 anos de experiência como designer gráfico,
+                Com mais de 14 anos de experiência como designer gráfico,
                 atualmente estou focado no desenvolvimento web fullstack. Estou
                 cursando frontend e backend no bootcamp TripleTen Brasil, um
                 programa intensivo de 10 meses. Antes disso, concluí o curso da
