@@ -19,14 +19,15 @@
   height: 35px;
   border-radius: 50%;
   border: none;
-  background-image: linear-gradient(360deg, #d39400 0.2%, #ffb300 100%);
-  background-color: #ffb300;
+  background-color: #e0a826;
   cursor: pointer;
-  transition: background-color linear 0.3s;
+  transform: scale(1);
+  transition: background-color linear 0.3s, transform linear 0.3s;
 }
 
 .social__link:hover {
-  background-image: none;
+  background-color: #ffb300;
+  transform: scale(1.1);
 }
 
 .social__icon {

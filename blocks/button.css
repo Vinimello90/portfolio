@@ -5,19 +5,18 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  background-image: linear-gradient(360deg, #d39400 0.2%, #ffb300 100%);
-  background-color: #ffb300;
+  /* background-image: linear-gradient(90deg, #d39400 0.2%, #ffb300 100%); */
+  background-color: #e0a826;
   border: none;
   fill: white;
   color: white;
   text-decoration: none;
   padding: 0;
-  transition: transform ease-in-out 0.3s, border-radius linear 0.3s,
-    backgroun-color linear 0.3s;
+  transition: all linear 0.3s;
 }
 
 .button:hover {
-  background-image: none;
+  background-color: #ffb300;
 }
 
 .button_open {
@@ -30,15 +29,15 @@
   width: fit-content;
   padding: 8px 25px;
   border-radius: 30px;
-  transition: all linear 0.3s;
 }
 
 .button_intro_whatsapp {
   background-image: none;
   background-color: transparent;
-  border: 2px solid #d39400;
-  color: #d39400;
-  fill: #d39400;
+  border: 2px solid #e0a826;
+  color: #e0a826;
+  fill: #e0a826;
+  transition: background-color linear 0.3s, border-color linear 0.3s;
 }
 
 .button_intro_whatsapp:hover {

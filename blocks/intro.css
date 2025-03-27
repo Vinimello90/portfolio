@@ -134,6 +134,10 @@
     font-size: 20px;
   }
 
+  .intro__message {
+    max-width: 290px;
+  }
+
   .intro__buttons {
     margin-top: 60px;
   }

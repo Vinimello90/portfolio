@@ -44,9 +44,10 @@ export const cards = [
     image: "./images/around-us.png",
     title: "Around the US - EUA Afora",
     description:
-      "Uma plataforma destinada ao usuário para adicionar, remover e curtir fotos, com um layout responsivo que se adapta a diferentes telas, utilizando unidades relativas e media queries. O JavaScript foi utilizado para as funcionalidades, com o código modularizado em classes para melhor manutenção e reutilização. Além disso, a plataforma faz o consumo de uma API para gerenciar as fotos, garantindo a comunicação entre o front-end e o back-end.",
-    link: "https://vinimello90.github.io/web_project_around/",
-    gitHubLink: "https://github.com/Vinimello90/web_project_around#readme",
+      "Uma plataforma destinada ao usuário para adicionar, remover e curtir fotos, com um layout responsivo que se adapta a diferentes telas, utilizando unidades relativas e media queries. Foi desenvolvido no react.js e a plataforma faz o consumo de uma API para gerenciar as fotos e do usuário, garantindo a comunicação entre o front-end e o back-end.",
+    link: "https://vinimello90.github.io/web_project_around_react/",
+    gitHubLink:
+      "https://github.com/Vinimello90/web_project_around_react#readme",
   },
 ];
 
