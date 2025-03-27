@@ -66,15 +66,16 @@
   opacity: 0;
   font-size: 14px;
   margin: 0;
-  padding: 0;
-  transition: padding ease-in-out 0.3s, opacity ease-in-out 0.3s;
+  padding: 12px 15px;
+  transform: scale(1.1);
+  transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
   text-align: justify;
 }
 
 .card__info_display .card__description {
+  transform: scale(1);
   opacity: 100%;
   margin: 0;
-  padding: 12px 15px;
 }
 
 .card__link-container {
