@@ -22,8 +22,7 @@
   background-color: #e0a826;
   cursor: pointer;
   transform: scale(1);
-  box-shadow: 0px 0px 5px #f3b93300;
-  transition: background-color linear 0.3s, transform linear 0.3s,
+  transition: background-color linear 0.3s, transform ease-in-out 0.3s,
     box-shadow linear 0.3s;
 }
 
