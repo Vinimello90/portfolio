@@ -17,6 +17,7 @@
 
 .button:hover {
   background-color: #ffb300;
+  box-shadow: 0px 0px 5px #da9801;
 }
 
 .button_open {
@@ -32,12 +33,10 @@
 }
 
 .button_intro_whatsapp {
-  background-image: none;
   background-color: transparent;
   border: 2px solid #e0a826;
   color: #e0a826;
   fill: #e0a826;
-  transition: background-color linear 0.3s, border-color linear 0.3s;
 }
 
 .button_intro_whatsapp:hover {

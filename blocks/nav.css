@@ -30,6 +30,7 @@
 
 .nav__link:hover {
   color: #ffb300;
+  text-shadow: 0px 0px 5px #ffb3007e;
 }
 
 .nav__link::after {
@@ -47,6 +48,7 @@
 .nav__link:hover::after {
   width: 75%;
   background-color: #ffb300;
+  box-shadow: 0px 0px 5px #ffb3007e;
 }
 
 @media screen and (max-width: 1024px) {
