@@ -1,13 +1,5 @@
 export const cards = [
   {
-    image: "./images/tindog.png",
-    title: "TinDog",
-    description:
-      "Um dos primeiros projetos que desenvolvi foi o site Tinder para Cachorros, desenvolvido utilizando HTML, CSS e Bootstrap. Ele é dividido em seções, com um botão para o app na loja, avaliação de usuário e planos de assinatura.",
-    link: "https://vinimello90.github.io/TinDog/",
-    gitHubLink: "https://github.com/Vinimello90/TinDog#readme",
-  },
-  {
     image: "./images/aprender.png",
     title: "Aprendendo a Aprender",
     description:
@@ -48,6 +40,15 @@ export const cards = [
     link: "https://vinimello90.github.io/web_project_around_react/",
     gitHubLink:
       "https://github.com/Vinimello90/web_project_around_react#readme",
+  },
+  {
+    image:
+      "https://github.com/Vinimello90/news-explorer-frontend/blob/main/src/images/screenshot_not_found.png?raw=true",
+    title: "NewsExplorer",
+    description:
+      "A aplicação web permite que usuários pesquisem notícias por tema e salvem artigos de interesse em suas contas. Desenvolvida em React.js, consome uma API de terceiros para exibir notícias e uma API própria para gerenciar usuários e artigos salvos. Foi implementado autenticação via Passkey, utilizando biometria ou chaves de segurança com SimpleWebAuthn. O layout é responsivo, adaptando-se a diferentes tamanhos de tela com unidades relativas e media queries.",
+    link: "https://newsexplorer.protechadvanced.com/",
+    gitHubLink: "https://github.com/Vinimello90/news-explorer-frontend#readme",
   },
 ];
 

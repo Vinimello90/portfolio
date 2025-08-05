@@ -8,7 +8,7 @@ Este projeto é o meu portfólio pessoal, desenvolvido para compartilhar informa
 
 **Veja o projeto em execução clicando [aqui](https://vinimello90.github.io/portfolio/).**
 
-## Tecnologias e Métodos
+## Tecnologias Utilizadas
 
 - HTML5 semântico
 - Metodologia BEM

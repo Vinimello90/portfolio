@@ -62,20 +62,22 @@
   background: url("../images/square-minus-regular.svg") no-repeat center;
 }
 
-.card__description {
+.card__content {
   opacity: 0;
-  font-size: 14px;
-  margin: 0;
   padding: 12px 15px;
   transform: scale(1.1);
   transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
   text-align: justify;
 }
 
-.card__info_display .card__description {
+.card__info_display .card__content {
   transform: scale(1);
   opacity: 100%;
+}
+
+.card__description {
   margin: 0;
+  font-size: 14px;
 }
 
 .card__link-container {
