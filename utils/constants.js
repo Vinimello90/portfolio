@@ -48,7 +48,7 @@ export const cards = [
     description:
       "A aplicação web permite que usuários pesquisem notícias por tema e salvem artigos de interesse em suas contas. Desenvolvida em React.js, consome uma API de terceiros para exibir notícias e uma API própria para gerenciar usuários e artigos salvos. Foi implementado autenticação via Passkey, utilizando biometria ou chaves de segurança com SimpleWebAuthn. O layout é responsivo, adaptando-se a diferentes tamanhos de tela com unidades relativas e media queries.",
     link: "https://newsexplorer.protechadvanced.com/",
-    gitHubLink: "https://github.com/Vinimello90/news-explorer-frontend#readme",
+    gitHubLink: "https://github.com/Vinimello90/news_explorer_frontend#readme",
   },
 ];
 
