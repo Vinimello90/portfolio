@@ -9,14 +9,6 @@ export const cards = [
       "https://github.com/Vinimello90/web_extra_project_tripleten#readme",
   },
   {
-    image: "./images/triple-espresso.png",
-    title: "Triple Espresso",
-    description:
-      "Triple Espresso é uma landing page desenvolvida em HTML e CSS, contendo um menu de navegação e a descrição do café no header. O main é dividido em seções com receitas de café e a opção para reserva de mesa. O footer apresenta informações sobre as redes sociais e copyright.",
-    link: "https://vinimello90.github.io/web_project_coffeeshop/",
-    gitHubLink: "https://github.com/Vinimello90/web_project_coffeeshop#readme",
-  },
-  {
     image: "./images/triple-peaks.png",
     title: "Biblioteca Triple Peaks",
     description:
@@ -49,6 +41,15 @@ export const cards = [
       "A aplicação web permite que usuários pesquisem notícias por tema e salvem artigos de interesse em suas contas. Desenvolvida em React.js, consome uma API de terceiros para exibir notícias e uma API própria para gerenciar usuários e artigos salvos. Foi implementado autenticação via Passkey, utilizando biometria ou chaves de segurança com SimpleWebAuthn. O layout é responsivo, adaptando-se a diferentes tamanhos de tela com unidades relativas e media queries.",
     link: "https://newsexplorer.protechadvanced.com/",
     gitHubLink: "https://github.com/Vinimello90/news_explorer_frontend#readme",
+  },
+  {
+    image:
+      "https://github.com/Vinimello90/web_auth_frontend/raw/main/src/assets/screenshot_fullpage.png",
+    title: "Web Authentication",
+    description:
+      " aplicativo web que eu desenvolvi para praticar o uso de WebAuthn e da framework Angular. Permite que usários registrem uma passkey e faça autenticação sem senha e de forma segura. Criei um layout responsivo que se adaptava a diferentes tamanhos de tela por meio de unidades de medida relativas e media queries, ajustando o design conforme os pontos de interrupção para garantir uma aparência consistente.",
+    link: "https://webauth.protechadvanced.com/",
+    gitHubLink: "https://github.com/Vinimello90/web_auth_frontend",
   },
 ];
 
